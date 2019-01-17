@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/11/2018 08:43:12" ReportInfo.Modified="12/11/2018 09:09:48" ReportInfo.CreatorVersion="2013.2.3.0">
+  <Dictionary>
+    <XmlDataConnection Name="Connection" ConnectionString="rijcmlqmmfdjkQxfe1iwShBNGpud8peLO5VMTLye5vc/BkCDa+UeSNcGEXZo0pyL36zp6QwWbY+nXGSQjGPRn5FicvY6v90IURuYvxTLedi46RDGuukvIGhd/JCbZY3jtrhXlx+WPsGE0+3IRdnGIjvjmCbOdsV4HvweoTYDZUXMTAL6EI=">
+      <TableDataSource Name="Cosmetic" DataType="System.Int32" Enabled="true" TableName="Cosmetic">
+        <Column Name="type" DataType="System.String"/>
+        <Column Name="name" DataType="System.String"/>
+        <Column Name="price" DataType="System.String"/>
+      </TableDataSource>
+    </XmlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="48.28">
+      <TextObject Name="Text1" Left="274.61" Top="7.21" Width="66.15" Height="18.9" GroupIndex="1" Text="Отчет за"/>
+      <TextObject Name="Text2" Left="340.2" Top="9.45" Width="85.05" Height="14.97" GroupIndex="1" Text="[Date]"/>
+      <BarcodeObject Name="Barcode1" Left="481.94" Top="5.52" Width="177.5" Height="42.76"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="50.5" Width="718.2" Height="18.9">
+      <TextObject Name="Text4" Left="103.95" Width="103.95" Height="18.9" Border.Lines="All" Text="Наименование" HorzAlign="Center"/>
+      <TextObject Name="Text6" Left="207.9" Width="94.5" Height="18.9" Border.Lines="All" Text="Тип" HorzAlign="Center"/>
+      <TextObject Name="Text8" Left="302.4" Width="94.5" Height="18.9" Border.Lines="All" Text="Цена" HorzAlign="Center"/>
+      <TextObject Name="Text10" Left="28.35" Width="75.6" Height="18.9" Border.Lines="All" Text="№" HorzAlign="Center"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="71.62" Width="718.2" Height="18.9" DataSource="Cosmetic">
+      <TextObject Name="Text3" Left="103.95" Width="103.95" Height="18.9" Border.Lines="All" Text="[Cosmetic.name]"/>
+      <TextObject Name="Text5" Left="207.9" Width="94.5" Height="18.9" Border.Lines="All" Text="[Cosmetic.type]"/>
+      <TextObject Name="Text7" Left="302.4" Width="94.5" Height="18.9" Border.Lines="All" Text="[Cosmetic.price]"/>
+      <TextObject Name="Text9" Left="28.35" Width="75.6" Height="18.9" Border.Lines="All" Text="[Row#]" HorzAlign="Center"/>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="92.75" Width="718.2" Height="47.25">
+      <TextObject Name="Text11" Left="28.35" Top="28.35" Width="274.05" Height="18.9" Text="Подпись_______________Хамидов Д. Р." HorzAlign="Center"/>
+    </ReportSummaryBand>
+    <PageFooterBand Name="PageFooter1" Top="142.22" Width="718.2" Height="18.93">
+      <TextObject Name="Text12" Left="622.95" Top="0.03" Width="94.5" Height="18.9" Text="[Page]" HorzAlign="Center"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

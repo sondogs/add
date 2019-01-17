@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Settings timerInterval="10" deserializeFrom="JSON" language="ru" />
+  <Settings timerInterval="2" deserializeFrom="XML" language="ru" />
+  <Settings timerInterval="2" deserializeFrom="XML" language="ru" />
+</ArrayOfSettings>

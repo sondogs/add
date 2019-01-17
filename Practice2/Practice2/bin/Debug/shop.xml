@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCosmetic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cosmetic name="1" price="1">
+    <type>1</type>
+  </Cosmetic>
+  <Cosmetic name="2" price="2">
+    <type>2</type>
+  </Cosmetic>
+  <Cosmetic name="3" price="3">
+    <type>3</type>
+  </Cosmetic>
+  <Cosmetic name="4" price="4">
+    <type>4</type>
+  </Cosmetic>
+  <Cosmetic name="1" price="1">
+    <type>1</type>
+  </Cosmetic>
+  <Cosmetic name="1" price="1">
+    <type>1</type>
+  </Cosmetic>
+  <Cosmetic name="1" price="1">
+    <type>1</type>
+  </Cosmetic>
+  <Cosmetic name="Бичь" price="1">
+    <type>1</type>
+  </Cosmetic>
+  <Cosmetic name="ыв" price="2">
+    <type>22</type>
+  </Cosmetic>
+  <Cosmetic name="dsf" price="2">
+    <type>2</type>
+  </Cosmetic>
+  <Cosmetic name="324" price="3">
+    <type>3</type>
+  </Cosmetic>
+  <Cosmetic name="Впп" price="3">
+    <type>4</type>
+  </Cosmetic>
+  <Cosmetic name="Вооо" price="1212">
+    <type>3</type>
+  </Cosmetic>
+  <Cosmetic name="Аыфв" price="322">
+    <type>Female</type>
+  </Cosmetic>
+  <Cosmetic name="Пыфвф" price="333">
+    <type>Female</type>
+  </Cosmetic>
+</ArrayOfCosmetic>
